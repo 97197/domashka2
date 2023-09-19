@@ -24,7 +24,6 @@ ul, li{
 }
 
 button{
-  border: 1px solid transparent;
   background: transparent;
   padding: 0;
   cursor: pointer;
@@ -41,19 +40,20 @@ address{
 
 .wrapper{
   background: #17191C;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .header{
-  border: 1px solid;
   position: relative;
   min-height: 80px;
-  margin: 3% 0 0 0;
+  padding-top: 50px;
+  margin-bottom: 168px;
 }
 
 .logo , .menu , .contacts{
   position: absolute;
 }
+
 
 .menu{
   left: 50%;
@@ -70,7 +70,7 @@ address{
 
 .menu__item{
   display: inline-block;
-  margin-right: 100px;
+  margin-right: 54px;
 }
 
 .menu__item:last-child{
@@ -108,19 +108,22 @@ address{
 }
 
 .preview__title{
+  text-align: center;
+  font-style: normal;
   font-size: 72px;
-  font-weight: 800px;
   line-height: 98px;
-  max-width: 90%;
-  margin:5% 0 0 20%;
+  text-transform: uppercase;
+  margin-bottom: 17.5px;
 }
 
 .preview__description{
-  margin:5% 0 0 35%;
+  text-align: center;
+  margin-bottom: 43.5px;
 }
 
 .preview__button{
-  margin:5% 0 0 42%;
+  text-align: center;
+  margin-bottom: 233px;
 }
 
 .new-items__item{
@@ -133,6 +136,7 @@ background-color: #FFF;
 padding-left: 15px;
 padding-top: 100px;
 padding-bottom: 100px;
+margin-bottom: 180px;
 }
 
 .new-items__item:last-child{
@@ -146,6 +150,14 @@ padding-bottom: 100px;
 
 b{
   color: #000000;
+}
+
+.news__bg{
+  margin-bottom: 53px;
+}
+
+.news__title{
+  margin-bottom: 51px;
 }
 
 .news__items{
@@ -168,6 +180,7 @@ margin-right: 0;
 
 .paginator{
   text-align: center;
+  margin-bottom: 124px;
 }
 
 .paginator__display , .paginator__list , .paginator__item{
@@ -207,35 +220,54 @@ margin-right: 0;
   margin-right: 27px;
   background-color: #fff;
   padding-left: 15px;
-  padding-top: 100px;
-  padding: bottom 70px;
+  padding-top: 10px;
+  padding-bottom: 66px;
+  margin-bottom: 68px;
 }
 
-.about__title, .about__text{
+.about__title{
   color: #000000;
-  margin: 50px;
-  margin-left: 100px;
+  text-transform: uppercase;
+  padding-top: 70px;
+  padding-bottom: 37px;
+
+  padding-left: 81px;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 49px;
+}
+
+.about__text{
+  color: #000000;
+  padding-bottom: 43px;
+  padding-right: 202px;
+  padding-left: 81px;
 }
 
 .about__button{
-  margin: 50px;
-  margin-left: 100px;
+  padding-left: 81px;
+  padding-bottom: 66px;
 }
 
-.footer .menu{
-  position: relative;
-  left: 900px;
+.footer {
+  position: relative; 
+  text-align: center;
 }
 
+.socials__list{
+  margin-bottom: 60px;
+}
+  
 .socials__item{
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
+
 }
 
 .socials {
-  top: 53px;
-  right: 300px;
+  right: 654px;
+  top: 49px;
 }
 
 .socials__item:last-child {
@@ -253,5 +285,4 @@ margin-right: 0;
   border-radius: 50%;
   line-height: 32px;
   transition: 0.2s;
-  margin-left: 75%;
 }
