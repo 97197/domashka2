@@ -8,6 +8,10 @@ body{
   font-family:'Open Sans' ;
 }
 
+.main-page-wrapper{
+  background: url("https://97197.github.io/domashka2/img/back.png") center top no-repeat;
+}
+
 h1, h2, h3, h4, p{
   margin: 0;
 }
@@ -133,9 +137,9 @@ height: 476px;
 border-radius: 5px;
 margin-right: 27px;
 background-color: #FFF;
-padding-left: 15px;
-padding-top: 100px;
-padding-bottom: 100px;
+padding-left: 22px;
+padding-top: 36px;
+padding-bottom: 53px;
 margin-bottom: 180px;
 }
 
@@ -251,7 +255,7 @@ margin-right: 0;
 
 .footer {
   position: relative; 
-  text-align: center;
+ 
 }
 
 .socials__list{
@@ -263,11 +267,6 @@ margin-right: 0;
   vertical-align: middle;
   margin-right: 10px;
 
-}
-
-.socials {
-  right: 654px;
-  top: 49px;
 }
 
 .socials__item:last-child {
@@ -285,4 +284,27 @@ margin-right: 0;
   border-radius: 50%;
   line-height: 32px;
   transition: 0.2s;
+}
+
+.contacts__phone{
+  display: block;
+  color: #FFF; 
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+}
+
+.contacts__description{
+  color: #9A9A9A;
+  font-size: 11px;
+}
+
+.socials__list{
+  position: relative;
+  margin-left: 700px;
+}
+
+.menu__list--2{
+margin-left: -200px;
 }
