@@ -1,99 +1,110 @@
-*{
+* {
   box-sizing: border-box;
   color: #FFF;
 }
 
-body{
+body {
   margin: 0;
-  font-family:'Open Sans' ;
+  font-family: 'Open Sans';
 }
 
-.main-page-wrapper{
+.main-page-wrapper {
   min-width: 100vh;
   width: 100%;
   background: url(https://97197.github.io/domashka2/img/back.png) center top no-repeat;
   overflow: hidden;
 }
 
-h1, h2, h3, h4, p{
+h1,
+h2,
+h3,
+h4,
+p {
   margin: 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: #000000;
 }
 
-ul, li{
+ul,
+li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-button{
+ul {
+  margin-bottom: 53px;
+}
+
+button {
   background: transparent;
   padding: 0;
   cursor: pointer;
 }
 
-address{
+address {
   font-style: normal;
 }
 
-.container{
+.container {
   width: 1141px;
   margin: 0 auto;
 }
 
-.header{
+.header {
   position: relative;
   min-height: 80px;
   padding-top: 50px;
   margin-bottom: 168px;
 }
 
-.logo , .menu , .contacts{
+.logo,
+.menu,
+.contacts {
   position: absolute;
 }
 
 
-.menu{
+.menu {
   left: 50%;
   transform: translateX(-50%);
 }
 
-.menu__link{
+.menu__link {
   color: #FFF;
 }
 
-.contacts{
+.contacts {
   right: 0;
 }
 
-.menu__item{
+.menu__item {
   display: inline-block;
   margin-right: 54px;
 }
 
-.menu__item:last-child{
+.menu__item:last-child {
   margin-right: 0;
 }
 
-.contacts__time{
+.contacts__time {
   color: #FF3D00;
 }
 
-.contacts__freecall{
+.contacts__freecall {
   display: block;
   color: #FFF;
 }
 
-.contacts__phone{
+.contacts__phone {
   display: block;
   color: #FFF;
 }
 
-.button{
+.button {
   background-color: #FF3D00;
   color: #FFF;
   font-size: 14px;
@@ -103,13 +114,17 @@ address{
   text-transform: uppercase;
 }
 
-.button--border{
+.button--border {
   background-color: transparent;
   color: #FF3D00;
   border-color: #FF3D00;
 }
 
-.preview__title{
+.preview {
+  margin-bottom: 233px;
+}
+
+.preview__title {
   text-align: center;
   font-style: normal;
   font-size: 72px;
@@ -118,78 +133,101 @@ address{
   margin-bottom: 17.5px;
 }
 
-.preview__description{
+.preview__description {
   text-align: center;
   margin-bottom: 43.5px;
 }
 
-.preview__button{
+.preview__button {
   text-align: center;
-  margin-bottom: 233px;
 }
 
-.new-items__item{
-display: inline-block;
-width: 350px;
-height: 476px;
-border-radius: 5px;
-margin-right: 27px;
-background-color: #FFF;
-padding-left: 22px;
-padding-top: 36px;
-padding-bottom: 53px;
-margin-bottom: 180px;
+.new-items {
+  margin-bottom: 180px;
 }
 
-.new-items__item:last-child{
+.new-items__item {
+  display: inline-block;
+  width: 350px;
+  height: 476px;
+  border-radius: 5px;
+  margin-right: 27px;
+  background-color: #FFF;
+  padding-left: 22px;
+  padding-top: 36px;
+  padding-bottom: 53px;
+}
+
+.new-items__item:last-child {
   margin-right: 0;
 }
 
-.new-items__subtitle, .new-items__info, .new-items__desc{
+.new-items__img {
+  margin-bottom: 30px;
+}
+
+.new-items__info {
+  display: inline-block;
   color: #000000;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 
-b{
+.new-items__subtitle {
+  display: inline-block;
+  color: #000000;
+  padding-bottom: 25px;
+  font-size: 32px;
+}
+
+.new-items__desc {
+  display: inline-block;
+  color: #000000;
+  padding-bottom: 25px;
+  float: left;
+  padding-right: 50px;
+}
+
+b {
   color: #000000;
 }
 
-.news__bg{
-  margin-bottom: 53px;
-}
-
-.news__title{
+.news__title {
   margin-bottom: 51px;
 }
 
-.news__items{
-display: inline-block;
-margin-right: 20px;
-height: 394px;
-width: 557px;
-position: relative;
+.news__items {
+  display: inline-block;
+  margin-right: 20px;
+  height: 394px;
+  width: 557px;
+  position: relative;
 }
 
-.news__items:last-child{
-margin-right: 0;
+.news__items:last-child {
+  margin-right: 0;
 }
 
-.news__content{
+.news__content {
   position: absolute;
   bottom: 30px;
   padding: 0 29px;
 }
 
-.paginator{
-  text-align: center;
-  margin-bottom: 124px;
+.news {
+  margin-bottom: 124px; 
 }
 
-.paginator__display , .paginator__list , .paginator__item{
+.paginator {
+  text-align: center;
+}
+
+.paginator__display,
+.paginator__list,
+.paginator__item {
   display: inline-block;
 }
 
-.paginator__link{
+.paginator__link {
   display: inline-block;
   height: 32px;
   width: 32px;
@@ -206,14 +244,18 @@ margin-right: 0;
   background: #FF5500;
 }
 
-.about__img{
+.about {
+  margin-bottom: 68px;
+}
+
+.about__img {
   display: inline-block;
   width: 505px;
   height: 490px;
   background: url(cameraman.jpg);
 }
 
-.about__content{
+.about__content {
   display: inline-block;
   width: 785px;
   height: 455px;
@@ -224,10 +266,10 @@ margin-right: 0;
   padding-left: 15px;
   padding-top: 10px;
   padding-bottom: 66px;
-  margin-bottom: 68px;
+  
 }
 
-.about__title{
+.about__title {
   color: #000000;
   text-transform: uppercase;
   padding-top: 70px;
@@ -239,39 +281,38 @@ margin-right: 0;
   line-height: 49px;
 }
 
-.about__text{
+.about__text {
   color: #000000;
   padding-bottom: 43px;
   padding-right: 202px;
   padding-left: 81px;
 }
 
-.about__button{
+.about__button {
   padding-left: 81px;
   padding-bottom: 66px;
 }
 
 .footer {
-  position: relative; 
- 
+  position: relative;
+
 }
 
-.socials__list{
+.socials__list {
   margin-bottom: 60px;
 }
-  
-.socials__item{
+
+.socials__item {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
-
 }
 
 .socials__item:last-child {
   margin-right: 0;
 }
 
-.socials__link{
+.socials__link {
   display: inline-block;
   height: 36px;
   width: 36px;
@@ -284,25 +325,27 @@ margin-right: 0;
   transition: 0.2s;
 }
 
-.contacts__phone{
+.contacts__phone {
   display: block;
-  color: #FFF; 
+  color: #FFF;
   font-size: 26px;
   font-weight: 400;
   line-height: 35px;
   text-align: left;
 }
 
-.contacts__description{
+.contacts__description {
   color: #9A9A9A;
   font-size: 11px;
 }
 
-.socials__list{
+.socials__list {
   position: relative;
   margin-left: 700px;
 }
 
-.menu__list--2{
-margin-left: -200px;
+.footer
+.menu {
+  left: 450px;
 }
+
